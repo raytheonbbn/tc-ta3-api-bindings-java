@@ -27,7 +27,7 @@ Here is how to build it from source and install it in maven locally
  * Build it using gradle
  ```
  cd kafka
- gradle -PscalaVersion=2.11.7 clean install releaseTarGz
+ gradle -PscalaVersion=3.2.2 clean install releaseTarGz
  ```
   The install task will install kafka to local maven repo
   The releaseTarGz will generate kafka binaries under 
